@@ -7,7 +7,7 @@ const mongoose = require('mongoose')
 const app = express()
 
 //Connecting to db
-mongoose.connect('mongodb://localhost/crud-mongo')
+mongoose.connect('mongodb+srv://AndreyAlthPCGamer:u1B23YgM07H1CuC9@cluster0-nk8w8.mongodb.net/test?retryWrites=true&w=majority')
 //check if connect succeful or fail
     .then(db => console.log('DB connected'))
     .catch(err => console.log(err))
